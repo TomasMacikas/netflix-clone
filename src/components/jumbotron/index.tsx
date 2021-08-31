@@ -20,7 +20,7 @@ export const Jumbotron: React.FC<JumbotronProps> = ({
 }) => {
   return (
     <Item>
-      <Inner direction={direction}>{children}</Inner>;
+      <Inner direction={direction}>{children}</Inner>
     </Item>
   );
 };
